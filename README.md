@@ -10,14 +10,7 @@
 - [Features](#features-✨)  
 - [Tech Stack](#tech-stack-used-💻)  
 - [Getting Started (Localhost)](#getting-started-🚀)  
-- [Getting Started (Web)](#getting-started-web-🚀)  
-- [Usage](#usage-📊)  
-- [Contributing](#contributing-🤝)  
-- [Issues](#issues-🐛)  
-- [Deploy on Render](#deploy-on-render-✅)  
-- [Learn More](#learn-more-📚)  
-- [Acknowledgments](#acknowledgments-🙏)  
-
+  
 ---
 
 ## 📝 Introduction
@@ -52,4 +45,4 @@ WanderStay is your ultimate travel exploration platform, designed to inspire and
 ## 🚀 Getting Started (Localhost)
 Clone the WanderStay repository to your local machine:  
 ```bash
-git clone https://github.com/Shishir2405/wanderlust.git
+git clone https://github.com/manishkum7/WonderLust.git

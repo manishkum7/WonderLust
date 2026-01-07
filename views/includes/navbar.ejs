@@ -18,6 +18,24 @@
      padding: 0.5rem 3rem 0.5rem 3rem;
      font-size: 1rem;
   }
+ 
+  .nav-logo {
+  font-size: 1.6rem;
+  font-weight: 700;              
+  color: #fe424d;                
+  letter-spacing: 0.5px;         
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-logo:hover {
+  color: #fe424d;
+  opacity: 0.9;
+  transform: scale(1.03);
+}
 </style>
 
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
@@ -30,10 +48,13 @@
        >
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" href="/listings">Explore</a>
+        <a class="nav-logo" href="/listings">WonderStay</a>
       </div>
+
+    
 
       <div class="navbar-nav ms-auto">
         <form class="d-flex" role="search">
@@ -43,7 +64,7 @@
       </div>
 
        <div class="navbar-nav ms-auto">
-       <a class="nav-link" href="/listings/new">Airbnb your home</a>
+       <a class="nav-link" href="/listings/new">Become a host</a>
         <% if(!currUser) { %>
         <a class="nav-link"  href="/signup"><b>Sign up</b></a>
         <a class="nav-link" href="/login"><b>Log in</b></a>
